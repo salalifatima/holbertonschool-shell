@@ -1,0 +1,2 @@
+#!/bin/bash
+chown "$(stat -c "%a" hello)" vincent:staff _hello
